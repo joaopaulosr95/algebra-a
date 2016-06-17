@@ -2,7 +2,7 @@
 
 Durante a disciplina Álgebra A, pesquisei e agrupei alguns algoritmos que pudessem ser úteis nos estudos e melhor compreensão da matéria. Aqui constam as respectivas implementações e o cabeçalho de cada função relacionada. Para maiores informações, leia o arquivo al.py
 
-### Instruções de uso
+## Instruções de uso
 Navegue até a pasta onde está o arquivo al.py
 
 ```
@@ -11,14 +11,12 @@ $ python3
 >>> al.funcao(a,b)
 ```
 
-### Observações
+## Observações
 1. Se durante um exercicio de interpolação de Lagrange, por ex, chegar a um termo do tipo A/B, lembrar que mod n, A/B equivale a A * B^(-1), ou seja, A * inverso de B em Zn.
-2. 
 
-### Funções presentes na implementação
+## Funções presentes na implementação
 
-Primos 
------
+### Primos 
 
 ##### ehPrimo(p)
 Teste de primalidade simples.
@@ -29,8 +27,7 @@ Teste de Lucas-Lehmer para detectar números de Mersenne primos.
 ##### mersennePrimo(n)
 Verifica se um numero primo n gera um número de Mersenne primo.
 
-Aritmetica modular
------
+### Aritmetica modular
 
 ##### mdc(a, b)
 Algoritmo euclideano simples, utilizado para calcular o mdc(a,b).
@@ -52,8 +49,7 @@ Recupera o inverso multiplicativo de 'a' na base 'n' utilizando o algoritmo eucl
 ##### expmod(base, exp, modulo)
 Função para calcular grandes potencias módulo n. 
 
-Grupos
------
+### Grupos
 
 ##### totiente(n)
 Conta quantos elementos em Zn são coprimos a n.
@@ -67,8 +63,7 @@ Essa função aceita um quarto parâmetro (opcional) cujo valor padrão é 1. Es
 ##### eCiclico(n)
 Verifica se um grupo é cíclico calculando sua ordem e a de todos os seus elementos.
 
-RSA
------
+### RSA
 
 ##### encripta(mensagem, e, n)
 Encripta um bloco da mensagem por meio da exponenciação modular com a chave pública.
