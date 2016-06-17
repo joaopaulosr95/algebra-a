@@ -38,7 +38,9 @@ Algoritmo euclideano estendido, utilizado para calcular os valores das constante
 a * alfa + b * beta = mdc(a,b)
 
 r | q | x | y       
+
 a | * | 1 | 0
+
 b | * | 0 | 1
 
 Essa função pode ter um quarto parâmetro (opcional) "True" ou "False", indicando que deve ou não imprimir na tela o passo-a-passo do procedimento.
